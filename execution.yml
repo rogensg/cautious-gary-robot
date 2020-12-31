@@ -1,5 +1,5 @@
 ---
-- name: test raw module
+- name: test raw modules
   hosts: all 
   tasks:
     - name: run ipconfig
