@@ -7,7 +7,7 @@
       register: ipconfig
     - debug: var=ipconfig
 
-- name: test stat module
+- name: test stat modules
   hosts: windows
   tasks:
     - name: test stat module on file
